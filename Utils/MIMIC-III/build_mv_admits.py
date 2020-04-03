@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Oct 18 19:18:37 2019
-
-@author: rick
 """
 
 import sys
