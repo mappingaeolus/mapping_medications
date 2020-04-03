@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on March 22 2020
-
-@author: Elisa and rick
 """
 
 
