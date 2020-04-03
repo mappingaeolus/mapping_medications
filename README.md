@@ -19,12 +19,11 @@ To this repository is used, please cite: [todo]
 ## Steps
 
 Starting from a table with a column identifying drugs the steps are:
-1)	Exact matching: try to match exactly the drugs with the drugs in AEOLUS, for the ones for which did not work
-2)	Fuzzy matching (threshold of 0.73): try to match with allowing some errors, for which did not work
-3)	Clean: clean from routes, concentration, percentage and then do again
-4)	Exact matching
-2)	Fuzzy matching (threshold of 0.73)
-6)	Manual matching: the ones that did not match try to match them manually thanks to the collaboration with experts
+1)  Extraction of the generic drug name
+1)	Cleaning: cleaning from routes, concentration, percentage
+2)	Exact matching: try to match exactly the drugs with the drugs in AEOLUS, for the ones for which did not work
+3)	Fuzzy matching (threshold of 0.73): try to match allowing some errors, for the ones for which did not work
+4)	Manual matching: the ones that did not match try to match them manually thanks to the collaboration with experts
 
 ## Repository structure
 
