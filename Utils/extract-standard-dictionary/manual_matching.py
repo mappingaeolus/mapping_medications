@@ -186,7 +186,7 @@ def create__matching_inputevents_aeolus__table(db):
 	
 def populate__matching_inputevents_aeolus__table(db):
     print('\nEntered populate___matching_inputevents_aeolus__table')
-	# meds_final_inputevents.pkl is the file of output of ccad_map_aeolus.py given in input drugs from inputevents
+	# meds_final_inputevents.pkl is the file of output of df_map_aeolus.py given in input drugs from inputevents
     inputevents_med = pd.read_pickle(OUTPUT_FILES_DIR + 'meds_final_inputevents.pkl')
     inputevents_med.to_csv('inputevents_med.csv')
     q = """
