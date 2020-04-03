@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Nov 24 17:03:10 2019
-
-@author: rick and elisa
 """
 
 # This file holds constants used in the routines for assembling measurement-treatment-measurement TRIPLES
