@@ -59,7 +59,7 @@ if __name__ == "__main__":
     unmatched_drugs.to_pickle(OUTPUT_FILES_DIR + './unmatched_drug.pkl')
     
     print('Linking meds to AEOLUS matching...')
-    # [3] Link ccad_meds_cleaned to AEOLUS matching 
+    # [3] Link df_meds_cleaned to AEOLUS matching 
     # Append exact matchings and fuzzy matching results 
     matching_dict = pd.concat([df_meds_cleaned.loc[df_unique_meds.in_aeolus==1][['generic_drug', 'aeolus']], 
                                df_fuzzy_matching_results.loc[df_fuzzy_matching_results.score>=0.73].rename(columns={'concept_name_cleaned':'aeolus'})[['generic_drug', 'aeolus']]])
