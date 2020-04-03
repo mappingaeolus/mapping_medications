@@ -17,7 +17,7 @@ To this repository is used, please cite: [todo]
 
 
 ## Steps
-![Pipeline](https://github.com/mappingaeolus/mapping_medications/blob/master/pipeline1.png)
+![Pipeline](https://github.com/mappingaeolus/mapping_medications/blob/master/pipeline.png)
 Starting from a table with a column identifying drugs the steps are:
 1)  Extraction of the generic drug name
 1)	Cleaning: cleaning from routes, concentration, percentage
